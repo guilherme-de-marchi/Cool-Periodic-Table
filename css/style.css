@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif, monospace;
+    font-size: 1.2em;
+}
+
+#periodic-table {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#p-table-content {
+    display: flex;
+    flex-direction: column;
+}
+
+#p-table-top {
+    display: flex;
+    align-items: flex-end;
+}
+
+#p-table-bottom {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+#p-table-informations {
+    display: flex;
+}
+
+#p-table-elements-types {
+    display: flex;
+}
+
+#p-table-big-element {
+    width: 204px;
+    height: 204px;
+    border-radius: 20px;
+    margin-right: 12px;
+    transition: .5s;
+}
+
+#p-table-big-element:hover {
+    cursor: pointer;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+}
+
+.p-table-element-area.column:not(:last-child) {
+    margin: 0 6px 0 0;
+}
+
+.p-table-element-area.row:not(:first-child) {
+    margin: 6px 0 0 0;
+}
+
+.p-table-element-area.column>.p-table-element-header {
+    transition: .5s;
+}
+
+.p-table-element-area.column:hover>.p-table-element-header {
+    transform: translateY(-10px);
+}
+
+.p-table-element {
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    transition: 1s;
+    color: #ffffff;
+    line-height: 60px;
+    text-align: center;
+}
+
+.p-table-element:not(.elements-group) {
+    font-size: 1.1em;
+}
+
+.p-table-element:hover {
+    cursor: pointer;
+}
+
+.p-table-element:active:not(.elements-group) {
+    transform: rotate(180deg);
+}
+
+.p-table-element-header {
+    width: 60px;
+    height: 24px;
+    background-color: rgb(197, 197, 197);
+    color: #ffffff;
+    text-align: center;
+    line-height: 24px;
+    letter-spacing: 4px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.p-table-element-type {
+    width: 210px;
+    height: 36px;
+    background-color: rgb(214, 214, 214);
+    border-radius: 10px;
+}
+
+.p-table-element-area.column .p-table-element {
+    margin: 6px 0 0 0;
+}
+
+.p-table-element-type:not(:last-child) {
+    margin: 0 0 6px 0;
+}
+
+.p-table-element-area.row .p-table-element:not(:last-child) {
+    margin: 0 6px 0 0;
+}
+
+.ametals {
+    background-color: yellowgreen;
+}
+
+.ametals:hover {
+    background-color: rgb(178, 238, 57);
+}
+
+.ametals:active {
+    background-color: rgb(110, 151, 28);
+}
+
+.alkaline-metals {
+    background-color: orange;
+}
+
+.alkaline-metals:hover {
+    background-color: rgb(255, 190, 70);
+}
+
+.alkaline-metals:active {
+    background-color: rgb(207, 135, 0);
+}
+
+.alkaline-earth-metals {
+    background-color: rgb(211, 211, 0);
+}
+
+.alkaline-earth-metals:hover {
+    background-color: rgb(252, 252, 82);
+}
+
+.alkaline-earth-metals:active {
+    background-color: rgb(184, 184, 0);
+}
+
+.noble-gases {
+    background-color: rgb(0, 102, 255);
+}
+
+.noble-gases:hover {
+    background-color: rgb(52, 133, 255);
+}
+
+.noble-gases:active {
+    background-color: rgb(0, 88, 219);
+}
+
+.metalloids {
+    background-color: rgb(11, 241, 153);
+}
+
+.metalloids:hover {
+    background-color: rgb(67, 255, 183);
+}
+
+.metalloids:active {
+    background-color: rgb(0, 216, 133);
+}
+
+.halogens {
+    background-color: rgb(0, 225, 255);
+}
+
+.halogens:hover {
+    background-color: rgb(59, 232, 255);
+}
+
+.halogens:active {
+    background-color: rgb(0, 201, 228);
+}
+
+.transition-metals {
+    background-color: rgb(245, 0, 0);
+}
+
+.transition-metals:hover {
+    background-color: rgb(255, 50, 50);
+}
+
+.transition-metals:active {
+    background-color: rgb(214, 0, 0);
+}
+
+.representative-metals {
+    background-color: rgb(139, 139, 139);
+}
+
+.representative-metals:hover {
+    background-color: rgb(182, 182, 182);
+}
+
+.representative-metals:active {
+    background-color: rgb(119, 119, 119);
+}
+
+.lanthanides {
+    background-color: rgb(255, 0, 200);
+}
+
+.lanthanides:hover {
+    background-color: rgb(248, 49, 255);
+}
+
+.lanthanides:active {
+    background-color: rgb(223, 0, 212);
+}
+
+.actinids {
+    background-color: rgb(195, 0, 255);
+}
+
+.actinids:hover {
+    background-color: rgb(207, 50, 255);
+}
+
+.actinids:active {
+    background-color: rgb(168, 0, 219);
+}
