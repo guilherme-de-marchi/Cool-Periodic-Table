@@ -1,474 +1,592 @@
 {
     "H": {
         "name": "hydrogen",
-        "family": "ametals"
+        "family": "ametals",
+        "atomic-weight": "1.008"
     },
     "He": {
         "name": "helium",
-        "family": "noble-gases"
+        "family": "noble-gases",
+        "atomic-weight": "4.002602"
     },
     "Li": {
         "name": "Lithium",
-        "type": "alkaline-metals"
+        "family": "alkaline-metals",
+        "atomic-weight": "6.94"
     },
     "Be": {
         "name": "Beryllium",
-        "type": "alkaline-earth-metals"
+        "family": "alkaline-earth-metals",
+        "atomic-weight": "9.0121831"
     },
     "B": {
         "name": "Boron",
-        "type": "metalloids"
+        "family": "metalloids",
+        "atomic-weight": "10.81"
     },
     "C": {
         "name": "Carbon",
-        "type": "ametals"
+        "family": "ametals",
+        "atomic-weight": "12.011"
     },
     "N": {
         "name": "Nitrogen",
-        "type": "ametals"
+        "family": "ametals",
+        "atomic-weight": "14.007"
     },
     "O": {
         "name": "Oxygen",
-        "type": "ametals"
+        "family": "ametals",
+        "atomic-weight": "15.999"
     },
     "F": {
         "name": "Fluorine",
-        "type": "halogens"
+        "family": "halogens",
+        "atomic-weight": "18.998403163"
     },
     "Ne": {
         "name": "Neon",
-        "family": "noble-gases"
+        "family": "noble-gases",
+        "atomic-weight": "20.1797"
     },
     "Na": {
         "name": "Sodium",
-        "type": "alkaline-metals"
+        "family": "alkaline-metals",
+        "atomic-weight": "22.98976928"
     },
     "Mg": {
         "name": "Magnesium",
-        "type": "alkaline-earth-metals"
+        "family": "alkaline-earth-metals",
+        "atomic-weight": "24.305"
     },
     "Al": {
         "name": "Aluminum",
-        "type": "representative-metals"
+        "family": "representative-metals",
+        "atomic-weight": "26.9815385"
     },
     "Si": {
         "name": "Silicon",
-        "type": "metalloids"
+        "family": "metalloids",
+        "atomic-weight": "28.085"
     },
     "P": {
         "name": "Phosphorus",
-        "type": "ametals"
+        "family": "ametals",
+        "atomic-weight": "30.973761998"
     },
     "S": {
         "name": "Sulfur",
-        "type": "ametals"
+        "family": "ametals",
+        "atomic-weight": "32.06"
     },
     "Cl": {
         "name": "Chlorine",
-        "type": "halogens"
+        "family": "halogens",
+        "atomic-weight": "35.45"
     },
     "Ar": {
         "name": "Argon",
-        "family": "noble-gases"
+        "family": "noble-gases",
+        "atomic-weight": "39.948"
     },
     "K": {
         "name": "Potassium",
-        "type": "alkaline-metals"
+        "family": "alkaline-metals",
+        "atomic-weight": "39.0983"
     },
     "Ca": {
         "name": "Calcium",
-        "type": "alkaline-earth-metals"
+        "family": "alkaline-earth-metals",
+        "atomic-weight": "40.078"
     },
     "Sc": {
         "name": "Scandium",
-        "type": "transition-metals"
+        "family": "transition-metals",
+        "atomic-weight": "44.955908"
     },
     "Ti": {
         "name": "Titanium",
-        "type": "transition-metals"
+        "family": "transition-metals",
+        "atomic-weight": "47.876"
     },
     "V": {
         "name": "Vanadium",
-        "type": "transition-metals"
+        "family": "transition-metals",
+        "atomic-weight": "50.9415"
     },
     "Cr": {
         "name": "Chromium",
-        "type": "transition-metals"
+        "family": "transition-metals",
+        "atomic-weight": "51.9961"
     },
     "Mn": {
         "name": "Manganese",
-        "type": "transition-metals"
+        "family": "transition-metals",
+        "atomic-weight": "54.938044"
     },
     "Fe": {
         "name": "Iron",
-        "type": "transition-metals"
+        "family": "transition-metals",
+        "atomic-weight": "55.845"
     },
     "Co": {
         "name": "Cobalt",
-        "type": "transition-metals"
+        "family": "transition-metals",
+        "atomic-weight": "58.933194"
     },
     "Ni": {
         "name": "Nickel",
-        "family": "transition-metals"
+        "family": "transition-metals",
+        "atomic-weight": "58.6934"
     },
     "Cu": {
         "name": "Copper",
-        "type": "transition-metals"
+        "family": "transition-metals",
+        "atomic-weight": "63.546"
     },
     "Zn": {
         "name": "Zinc",
-        "type": "transition-metals"
+        "family": "transition-metals",
+        "atomic-weight": "65.38"
     },
     "Ga": {
         "name": "Gallium",
-        "type": "representative-metals"
+        "family": "representative-metals",
+        "atomic-weight": "69.723"
     },
     "Ge": {
         "name": "Germanium",
-        "type": "metalloids"
+        "family": "metalloids",
+        "atomic-weight": "72.63"
     },
     "As": {
         "name": "Arsenic",
-        "type": "metalloids"
+        "family": "metalloids",
+        "atomic-weight": "74.921595"
     },
     "Se": {
         "name": "Selenium",
-        "type": "ametals"
+        "family": "ametals",
+        "atomic-weight": "78.971"
     },
     "Br": {
         "name": "Bromine",
-        "type": "halogens"
+        "family": "halogens",
+        "atomic-weight": "79.904"
     },
     "Kr": {
         "name": "Krypton",
-        "family": "noble-gases"
+        "family": "noble-gases",
+        "atomic-weight": "83.798"
     },
     "Rb": {
         "name": "Rubidium",
-        "type": "alkaline-metals"
+        "family": "alkaline-metals",
+        "atomic-weight": "85.4678"
     },
     "Sr": {
         "name": "Strontium",
-        "type": "alkaline-earth-metals"
+        "family": "alkaline-earth-metals",
+        "atomic-weight": "87.62"
     },
     "Y": {
         "name": "Yttrium",
-        "type": "transition-metals"
+        "family": "transition-metals",
+        "atomic-weight": "88.90584"
     },
     "Zr": {
         "name": "Zirconium",
-        "type": "transition-metals"
+        "family": "transition-metals",
+        "atomic-weight": "91.224"
     },
     "Nb": {
         "name": "Niobium",
-        "type": "transition-metals"
+        "family": "transition-metals",
+        "atomic-weight": "92.90637"
     },
     "Mo": {
         "name": "Molybdenum",
-        "type": "transition-metals"
+        "family": "transition-metals",
+        "atomic-weight": "95.95"
     },
     "Tc": {
         "name": "Technesium",
-        "type": "transition-metals"
+        "family": "transition-metals",
+        "atomic-weight": "98"
     },
     "Ru": {
         "name": "Ruthenium",
-        "type": "transition-metals"
+        "family": "transition-metals",
+        "atomic-weight": "101.07"
     },
     "Rh": {
         "name": "Rhodium",
-        "type": "transition-metals"
+        "family": "transition-metals",
+        "atomic-weight": "102.9055"
     },
     "Pd": {
         "name": "Palladium",
-        "family": "transition-metals"
+        "family": "transition-metals",
+        "atomic-weight": "106.42"
     },
     "Ag": {
         "name": "Silver",
-        "type": "transition-metals"
+        "family": "transition-metals",
+        "atomic-weight": "107.8682"
     },
     "Cd": {
         "name": "Cadmium",
-        "type": "transition-metals"
+        "family": "transition-metals",
+        "atomic-weight": "112.414"
     },
     "In": {
         "name": "Indium",
-        "type": "representative-metals"
+        "family": "representative-metals",
+        "atomic-weight": "114.818"
     },
     "Sn": {
         "name": "Tin",
-        "type": "representative-metals"
+        "family": "representative-metals",
+        "atomic-weight": "118.71"
     },
     "Sb": {
         "name": "Antilmone",
-        "type": "metalloids"
+        "family": "metalloids",
+        "atomic-weight": "121.76"
     },
     "Te": {
         "name": "Tellurium",
-        "type": "metalloids"
+        "family": "metalloids",
+        "atomic-weight": "127.6"
     },
     "I": {
         "name": "Iodine",
-        "type": "halogens"
+        "family": "halogens",
+        "atomic-weight": "126.90447"
     },
     "Xe": {
         "name": "Xenon",
-        "type": "noble-gases"
+        "family": "noble-gases",
+        "atomic-weight": "131.293"
     },
     "Cs": {
         "name": "Cesium",
-        "type": "alkaline-metals"
+        "family": "alkaline-metals",
+        "atomic-weight": "132.90545196"
     },
     "Ba": {
         "name": "Barium",
-        "type": "alkaline-earth-metals"
-    },
-    "Hf": {
-        "name": "Hafnium",
-        "type": "transition-metals"
-    },
-    "Ta": {
-        "name": "Tantalum",
-        "type": "transition-metals"
-    },
-    "W": {
-        "name": "Tungsten",
-        "type": "transition-metals"
-    },
-    "Re": {
-        "name": "Rhenium",
-        "type": "transition-metals"
-    },
-    "Os": {
-        "name": "Osmium",
-        "type": "transition-metals"
-    },
-    "Ir": {
-        "name": "Iridium",
-        "type": "transition-metals"
-    },
-    "Pt": {
-        "name": "Platinum",
-        "type": "transition-metals"
-    },
-    "Au": {
-        "name": "Gold",
-        "family": "transition-metals"
-    },
-    "Hg": {
-        "name": "Mercury",
-        "type": "transition-metals"
-    },
-    "Tl": {
-        "name": "Thallium",
-        "type": "representative-metals"
-    },
-    "Pb": {
-        "name": "Lead",
-        "type": "representative-metals"
-    },
-    "Bi": {
-        "name": "Bismuth",
-        "type": "representative-metals"
-    },
-    "Po": {
-        "name": "Polonium",
-        "type": "metalloids"
-    },
-    "At": {
-        "name": "Astato",
-        "type": "halogens"
-    },
-    "Rn": {
-        "name": "Radon",
-        "type": "noble-gases"
-    },
-    "Fr": {
-        "name": "Francium",
-        "type": "alkaline-metals"
-    },
-    "Ra": {
-        "name": "Radium",
-        "type": "alkaline-earth-metals"
-    },
-    "Rf": {
-        "name": "Rutherfordium",
-        "type": "transition-metals"
-    },
-    "Db": {
-        "name": "Dubious",
-        "type": "transition-metals"
-    },
-    "Sg": {
-        "name": "Seaborio",
-        "type": "transition-metals"
-    },
-    "Bh": {
-        "name": "Bohrio",
-        "type": "transition-metals"
-    },
-    "Hs": {
-        "name": "Hassium",
-        "type": "transition-metals"
-    },
-    "Mt": {
-        "name": "Meitnerium",
-        "type": "transition-metals"
-    },
-    "Ds": {
-        "name": "Darmstace",
-        "type": "transition-metals"
-    },
-    "Rg": {
-        "name": "Roentgenium",
-        "family": "transition-metals"
-    },
-    "Cn": {
-        "name": "Copernicium",
-        "type": "transition-metals"
-    },
-    "Nh": {
-        "name": "Nihonium",
-        "type": "representative-metals"
-    },
-    "Fl": {
-        "name": "Flerovium",
-        "type": "representative-metals"
-    },
-    "Mc": {
-        "name": "Moscow",
-        "type": "representative-metals"
-    },
-    "Lv": {
-        "name": "Livermory",
-        "type": "representative-metals"
-    },
-    "Ts": {
-        "name": "Tennessin",
-        "type": "halogens"
-    },
-    "Og": {
-        "name": "Organessonium",
-        "type": "noble-gases"
+        "family": "alkaline-earth-metals",
+        "atomic-weight": "137.327"
     },
     "La": {
         "name": "Lanthanum",
-        "type": "lanthanides"
+        "family": "lanthanides",
+        "atomic-weight": "138.90547"
     },
     "Ce": {
         "name": "Cerium",
-        "type": "lanthanides"
+        "family": "lanthanides",
+        "atomic-weight": "140.116"
     },
     "Pr": {
         "name": "Praseodymium",
-        "type": "lanthanides"
+        "family": "lanthanides",
+        "atomic-weight": "140.90766"
     },
     "Nd": {
         "name": "Neodymium",
-        "type": "lanthanides"
+        "family": "lanthanides",
+        "atomic-weight": "144.242"
     },
     "Pm": {
         "name": "Promethium",
-        "type": "lanthanides"
+        "family": "lanthanides",
+        "atomic-weight": "145"
     },
     "Sm": {
         "name": "Samarium",
-        "type": "lanthanides"
+        "family": "lanthanides",
+        "atomic-weight": "150.36"
     },
     "Eu": {
         "name": "Europium",
-        "type": "lanthanides"
+        "family": "lanthanides",
+        "atomic-weight": "151.964"
     },
     "Gd": {
         "name": "Gadolinium",
-        "type": "lanthanides"
+        "family": "lanthanides",
+        "atomic-weight": "157.25"
     },
     "Tb": {
         "name": "Terbium",
-        "type": "lanthanides"
+        "family": "lanthanides",
+        "atomic-weight": "158.92535"
     },
     "Dy": {
         "name": "Dysprosium",
-        "type": "lanthanides"
+        "family": "lanthanides",
+        "atomic-weight": "162.5"
     },
     "Ho": {
         "name": "Holmium",
-        "type": "lanthanides"
+        "family": "lanthanides",
+        "atomic-weight": "164.93033"
     },
     "Er": {
         "name": "Erbium",
-        "type": "lanthanides"
+        "family": "lanthanides",
+        "atomic-weight": "167.259"
     },
     "Tm": {
         "name": "Thulium",
-        "type": "lanthanides"
+        "family": "lanthanides",
+        "atomic-weight": "168.93422"
     },
     "Yb": {
         "name": "Ytterbium",
-        "type": "lanthanides"
+        "family": "lanthanides",
+        "atomic-weight": "173.045"
     },
     "Lu": {
         "name": "Lutetium",
-        "type": "lanthanides"
+        "family": "lanthanides",
+        "atomic-weight": "174.9668"
+    },
+    "Hf": {
+        "name": "Hafnium",
+        "family": "transition-metals",
+        "atomic-weight": "178.49"
+    },
+    "Ta": {
+        "name": "Tantalum",
+        "family": "transition-metals",
+        "atomic-weight": "180.94788"
+    },
+    "W": {
+        "name": "Tungsten",
+        "family": "transition-metals",
+        "atomic-weight": "183.84"
+    },
+    "Re": {
+        "name": "Rhenium",
+        "family": "transition-metals",
+        "atomic-weight": "186.207"
+    },
+    "Os": {
+        "name": "Osmium",
+        "family": "transition-metals",
+        "atomic-weight": "190.23"
+    },
+    "Ir": {
+        "name": "Iridium",
+        "family": "transition-metals",
+        "atomic-weight": "192.217"
+    },
+    "Pt": {
+        "name": "Platinum",
+        "family": "transition-metals",
+        "atomic-weight": "195.084"
+    },
+    "Au": {
+        "name": "Gold",
+        "family": "transition-metals",
+        "atomic-weight": "196.966569"
+    },
+    "Hg": {
+        "name": "Mercury",
+        "family": "transition-metals",
+        "atomic-weight": "200.592"
+    },
+    "Tl": {
+        "name": "Thallium",
+        "family": "representative-metals",
+        "atomic-weight": "204.38"
+    },
+    "Pb": {
+        "name": "Lead",
+        "family": "representative-metals",
+        "atomic-weight": "207.2"
+    },
+    "Bi": {
+        "name": "Bismuth",
+        "family": "representative-metals",
+        "atomic-weight": "208.9804"
+    },
+    "Po": {
+        "name": "Polonium",
+        "family": "metalloids",
+        "atomic-weight": "209"
+    },
+    "At": {
+        "name": "Astato",
+        "family": "halogens",
+        "atomic-weight": "210"
+    },
+    "Rn": {
+        "name": "Radon",
+        "family": "noble-gases",
+        "atomic-weight": "222"
+    },
+    "Fr": {
+        "name": "Francium",
+        "family": "alkaline-metals",
+        "atomic-weight": "223"
+    },
+    "Ra": {
+        "name": "Radium",
+        "family": "alkaline-earth-metals",
+        "atomic-weight": "226"
     },
     "Ac": {
         "name": "Actinium",
-        "type": "lanthanides"
+        "family": "lanthanides",
+        "atomic-weight": "227"
     },
     "Th": {
         "name": "Thorium",
-        "type": "lanthanides"
+        "family": "lanthanides",
+        "atomic-weight": "232.0377"
     },
     "Pa": {
         "name": "Protactinium",
-        "type": "lanthanides"
+        "family": "lanthanides",
+        "atomic-weight": "231.03588"
     },
     "U": {
         "name": "Uranium",
-        "type": "lanthanides"
+        "family": "lanthanides",
+        "atomic-weight": "238.02891"
     },
     "Np": {
         "name": "Neptunium",
-        "type": "lanthanides"
+        "family": "lanthanides",
+        "atomic-weight": "237"
     },
     "Pu": {
         "name": "Plutonium",
-        "type": "lanthanides"
+        "family": "lanthanides",
+        "atomic-weight": "244"
     },
     "Am": {
         "name": "Americium",
-        "type": "lanthanides"
+        "family": "lanthanides",
+        "atomic-weight": "243"
     },
     "Cm": {
         "name": "Curium",
-        "type": "lanthanides"
+        "family": "lanthanides",
+        "atomic-weight": "247"
     },
     "Bk": {
         "name": "Berkelium",
-        "type": "lanthanides"
+        "family": "lanthanides",
+        "atomic-weight": "247"
     },
     "Cf": {
         "name": "Californium",
-        "type": "lanthanides"
+        "family": "lanthanides",
+        "atomic-weight": "251"
     },
     "Es": {
         "name": "Einstenius",
-        "type": "lanthanides"
+        "family": "lanthanides",
+        "atomic-weight": "252"
     },
     "Fm": {
         "name": "Fermium",
-        "type": "lanthanides"
+        "family": "lanthanides",
+        "atomic-weight": "257"
     },
     "Md": {
         "name": "Mendelevius",
-        "type": "lanthanides"
+        "family": "lanthanides",
+        "atomic-weight": "258"
     },
     "No": {
         "name": "Nobelium",
-        "type": "lanthanides"
+        "family": "lanthanides",
+        "atomic-weight": "259"
     },
     "Lr": {
         "name": "Laurencio",
-        "type": "lanthanides"
+        "family": "lanthanides",
+        "atomic-weight": "262"
+    },
+    "Rf": {
+        "name": "Rutherfordium",
+        "family": "transition-metals",
+        "atomic-weight": "267"
+    },
+    "Db": {
+        "name": "Dubious",
+        "family": "transition-metals",
+        "atomic-weight": "270"
+    },
+    "Sg": {
+        "name": "Seaborio",
+        "family": "transition-metals",
+        "atomic-weight": "269"
+    },
+    "Bh": {
+        "name": "Bohrio",
+        "family": "transition-metals",
+        "atomic-weight": "270"
+    },
+    "Hs": {
+        "name": "Hassium",
+        "family": "transition-metals",
+        "atomic-weight": "270"
+    },
+    "Mt": {
+        "name": "Meitnerium",
+        "family": "transition-metals",
+        "atomic-weight": "278"
+    },
+    "Ds": {
+        "name": "Darmstace",
+        "family": "transition-metals",
+        "atomic-weight": "281"
+    },
+    "Rg": {
+        "name": "Roentgenium",
+        "family": "transition-metals",
+        "atomic-weight": "281"
+    },
+    "Cn": {
+        "name": "Copernicium",
+        "family": "transition-metals",
+        "atomic-weight": "285"
+    },
+    "Nh": {
+        "name": "Nihonium",
+        "family": "representative-metals",
+        "atomic-weight": "286"
+    },
+    "Fl": {
+        "name": "Flerovium",
+        "family": "representative-metals",
+        "atomic-weight": "289"
+    },
+    "Mc": {
+        "name": "Moscow",
+        "family": "representative-metals",
+        "atomic-weight": "289"
+    },
+    "Lv": {
+        "name": "Livermory",
+        "family": "representative-metals",
+        "atomic-weight": "293"
+    },
+    "Ts": {
+        "name": "Tennessin",
+        "family": "halogens",
+        "atomic-weight": "293"
+    },
+    "Og": {
+        "name": "Organessonium",
+        "family": "noble-gases",
+        "atomic-weight": "294"
     }
 }

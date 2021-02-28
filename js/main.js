@@ -9,6 +9,9 @@ function transforme_big_element(element) {
         let big_element = document.getElementById('p-table-big-element');
         big_element.classList.remove(big_element.classList.item(0));
         big_element.classList.add(element.classList.item(1));
-        big_element.innerHTML = elements_basic_informations[element.innerHTML]['name'];
+        document.getElementById('p-table-big-element-atomic-number').innerText = Object.keys(elements_basic_informations).indexOf(element.innerHTML) + 1;
+        document.getElementById('p-table-big-element-symbol').innerText = element.innerHTML;
+        document.getElementById('p-table-big-element-name').innerText = elements_basic_informations[element.innerHTML]['name'];
+        document.getElementById('p-table-big-element-atomic-weight').innerText = elements_basic_informations[element.innerHTML]['atomic-weight'];
     };
-}
+};

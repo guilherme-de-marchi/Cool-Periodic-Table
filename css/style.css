@@ -50,6 +50,16 @@ body {
     cursor: pointer;
 }
 
+#p-table-big-element-symbol,
+#p-table-big-element-name,
+#p-table-big-element-atomic-weight {
+    text-align: center;
+}
+
+#p-table-big-element-atomic-number {
+    text-align: right;
+}
+
 .column {
     display: flex;
     flex-direction: column;
