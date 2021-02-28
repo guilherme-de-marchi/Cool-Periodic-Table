@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Periodic Table</title>
+
+</head>
+
+<body>
+
+    <div id="periodic-table">
+        <div id="p-table-informations">
+            <div id="p-table-big-element" class="ametals"></div>
+            <div id="p-table-elements-types">
+                <div class="p-table-element-area column">
+                    <div class="p-table-element-type"></div>
+                    <div class="p-table-element-type"></div>
+                    <div class="p-table-element-type"></div>
+                    <div class="p-table-element-type"></div>
+                    <div class="p-table-element-type"></div>
+                </div>
+                <div class="p-table-element-area column">
+                    <div class="p-table-element-type"></div>
+                    <div class="p-table-element-type"></div>
+                    <div class="p-table-element-type"></div>
+                    <div class="p-table-element-type"></div>
+                    <div class="p-table-element-type"></div>
+                </div>
+            </div>
+        </div>
+        <div id="p-table-content">
+            <div id="p-table-top">
+                <div class="p-table-element-area column">
+                    <div class="p-table-element-header">1A</div>
+                    <div class="p-table-element ametals" onmousedown="transforme_big_element(this);">H</div>
+                    <div class="p-table-element alkaline-metals" onmousedown="transforme_big_element(this);">Li</div>
+                    <div class="p-table-element alkaline-metals" onmousedown="transforme_big_element(this);">Na</div>
+                    <div class="p-table-element alkaline-metals" onmousedown="transforme_big_element(this);">K</div>
+                    <div class="p-table-element alkaline-metals" onmousedown="transforme_big_element(this);">Rb</div>
+                    <div class="p-table-element alkaline-metals" onmousedown="transforme_big_element(this);">Cs</div>
+                    <div class="p-table-element alkaline-metals" onmousedown="transforme_big_element(this);">Fr</div>
+                </div>
+                <div class="p-table-element-area column">
+                    <div class="p-table-element-header">2A</div>
+                    <div class="p-table-element alkaline-earth-metals" onmousedown="transforme_big_element(this);">Be</div>
+                    <div class="p-table-element alkaline-earth-metals" onmousedown="transforme_big_element(this);">Mg</div>
+                    <div class="p-table-element alkaline-earth-metals" onmousedown="transforme_big_element(this);">Ca</div>
+                    <div class="p-table-element alkaline-earth-metals" onmousedown="transforme_big_element(this);">Sr</div>
+                    <div class="p-table-element alkaline-earth-metals" onmousedown="transforme_big_element(this);">Ba</div>
+                    <div class="p-table-element alkaline-earth-metals" onmousedown="transforme_big_element(this);">Ra</div>
+                </div>
+                <div class="p-table-element-area column">
+                    <div class="p-table-element-header">3B</div>
+                    <div class="p-table-element transition-metals" onmousedown="transforme_big_element(this);">Sc</div>
+                    <div class="p-table-element transition-metals" onmousedown="transforme_big_element(this);">Y</div>
+                    <div class="p-table-element lanthanides elements-group">La-Lu</div>
+                    <div class="p-table-element actinids elements-group">Ac-Lr</div>
+                </div>
+                <div class="p-table-element-area column">
+                    <div class="p-table-element-header">4B</div>
+                    <div class="p-table-element transition-metals" onmousedown="transforme_big_element(this);">Ti</div>
+                    <div class="p-table-element transition-metals" onmousedown="transforme_big_element(this);">Zr</div>
+                    <div class="p-table-element transition-metals" onmousedown="transforme_big_element(this);">Hf</div>
+                    <div class="p-table-element transition-metals" onmousedown="transforme_big_element(this);">Rf</div>
+                </div>
+                <div class="p-table-element-area column">
+                    <div class="p-table-element-header">5B</div>
+                    <div class="p-table-element transition-metals" onmousedown="transforme_big_element(this);">V</div>
+                    <div class="p-table-element transition-metals" onmousedown="transforme_big_element(this);">Nb</div>
+                    <div class="p-table-element transition-metals" onmousedown="transforme_big_element(this);">Ta</div>
+                    <div class="p-table-element transition-metals" onmousedown="transforme_big_element(this);">Db</div>
+                </div>
+                <div class="p-table-element-area column">
+                    <div class="p-table-element-header">6B</div>
+                    <div class="p-table-element transition-metals" onmousedown="transforme_big_element(this);">Cr</div>
+                    <div class="p-table-element transition-metals" onmousedown="transforme_big_element(this);">Mo</div>
+                    <div class="p-table-element transition-metals" onmousedown="transforme_big_element(this);">W</div>
+                    <div class="p-table-element transition-metals" onmousedown="transforme_big_element(this);">Sg</div>
+                </div>
+                <div class="p-table-element-area column">
+                    <div class="p-table-element-header">7B</div>
+                    <div class="p-table-element transition-metals" onmousedown="transforme_big_element(this);">Mn</div>
+                    <div class="p-table-element transition-metals" onmousedown="transforme_big_element(this);">Tc</div>
+                    <div class="p-table-element transition-metals" onmousedown="transforme_big_element(this);">Re</div>
+                    <div class="p-table-element transition-metals" onmousedown="transforme_big_element(this);">Bh</div>
+                </div>
+                <div class="p-table-element-area column">
+                    <div class="p-table-element-header">8B</div>
+                    <div class="p-table-element transition-metals" onmousedown="transforme_big_element(this);">Fe</div>
+                    <div class="p-table-element transition-metals" onmousedown="transforme_big_element(this);">Ru</div>
+                    <div class="p-table-element transition-metals" onmousedown="transforme_big_element(this);">Os</div>
+                    <div class="p-table-element transition-metals" onmousedown="transforme_big_element(this);">Hs</div>
+                </div>
+                <div class="p-table-element-area column">
+                    <div class="p-table-element-header">8B</div>
+                    <div class="p-table-element transition-metals" onmousedown="transforme_big_element(this);">Co</div>
+                    <div class="p-table-element transition-metals" onmousedown="transforme_big_element(this);">Rh</div>
+                    <div class="p-table-element transition-metals" onmousedown="transforme_big_element(this);">Ir</div>
+                    <div class="p-table-element transition-metals" onmousedown="transforme_big_element(this);">Mt</div>
+                </div>
+                <div class="p-table-element-area column">
+                    <div class="p-table-element-header">8B</div>
+                    <div class="p-table-element transition-metals" onmousedown="transforme_big_element(this);">Ni</div>
+                    <div class="p-table-element transition-metals" onmousedown="transforme_big_element(this);">Pd</div>
+                    <div class="p-table-element transition-metals" onmousedown="transforme_big_element(this);">Pt</div>
+                    <div class="p-table-element transition-metals" onmousedown="transforme_big_element(this);">Ds</div>
+                </div>
+                <div class="p-table-element-area column">
+                    <div class="p-table-element-header">1B</div>
+                    <div class="p-table-element transition-metals" onmousedown="transforme_big_element(this);">Cu</div>
+                    <div class="p-table-element transition-metals" onmousedown="transforme_big_element(this);">Ag</div>
+                    <div class="p-table-element transition-metals" onmousedown="transforme_big_element(this);">Au</div>
+                    <div class="p-table-element transition-metals" onmousedown="transforme_big_element(this);">Rg</div>
+                </div>
+                <div class="p-table-element-area column">
+                    <div class="p-table-element-header">2B</div>
+                    <div class="p-table-element transition-metals" onmousedown="transforme_big_element(this);">Zn</div>
+                    <div class="p-table-element transition-metals" onmousedown="transforme_big_element(this);">Cd</div>
+                    <div class="p-table-element transition-metals" onmousedown="transforme_big_element(this);">Hg</div>
+                    <div class="p-table-element transition-metals" onmousedown="transforme_big_element(this);">Cn</div>
+                </div>
+                <div class="p-table-element-area column">
+                    <div class="p-table-element-header">3A</div>
+                    <div class="p-table-element metalloids" onmousedown="transforme_big_element(this);">B</div>
+                    <div class="p-table-element representative-metals" onmousedown="transforme_big_element(this);">Al</div>
+                    <div class="p-table-element representative-metals" onmousedown="transforme_big_element(this);">Ga</div>
+                    <div class="p-table-element representative-metals" onmousedown="transforme_big_element(this);">In</div>
+                    <div class="p-table-element representative-metals" onmousedown="transforme_big_element(this);">Tl</div>
+                    <div class="p-table-element representative-metals" onmousedown="transforme_big_element(this);">Nh</div>
+                </div>
+                <div class="p-table-element-area column">
+                    <div class="p-table-element-header">4A</div>
+                    <div class="p-table-element ametals" onmousedown="transforme_big_element(this);">C</div>
+                    <div class="p-table-element metalloids" onmousedown="transforme_big_element(this);">Si</div>
+                    <div class="p-table-element metalloids" onmousedown="transforme_big_element(this);">Ge</div>
+                    <div class="p-table-element representative-metals" onmousedown="transforme_big_element(this);">Sn</div>
+                    <div class="p-table-element representative-metals" onmousedown="transforme_big_element(this);">Pb</div>
+                    <div class="p-table-element representative-metals" onmousedown="transforme_big_element(this);">Fl</div>
+                </div>
+                <div class="p-table-element-area column">
+                    <div class="p-table-element-header">5A</div>
+                    <div class="p-table-element ametals" onmousedown="transforme_big_element(this);">N</div>
+                    <div class="p-table-element ametals" onmousedown="transforme_big_element(this);">P</div>
+                    <div class="p-table-element metalloids" onmousedown="transforme_big_element(this);">As</div>
+                    <div class="p-table-element metalloids" onmousedown="transforme_big_element(this);">Sb</div>
+                    <div class="p-table-element representative-metals" onmousedown="transforme_big_element(this);">Bi</div>
+                    <div class="p-table-element representative-metals" onmousedown="transforme_big_element(this);">Mc</div>
+                </div>
+                <div class="p-table-element-area column">
+                    <div class="p-table-element-header">6A</div>
+                    <div class="p-table-element ametals" onmousedown="transforme_big_element(this);">O</div>
+                    <div class="p-table-element ametals" onmousedown="transforme_big_element(this);">S</div>
+                    <div class="p-table-element ametals" onmousedown="transforme_big_element(this);">Se</div>
+                    <div class="p-table-element metalloids" onmousedown="transforme_big_element(this);">Te</div>
+                    <div class="p-table-element metalloids" onmousedown="transforme_big_element(this);">Po</div>
+                    <div class="p-table-element representative-metals" onmousedown="transforme_big_element(this);">Lv</div>
+                </div>
+                <div class="p-table-element-area column">
+                    <div class="p-table-element-header">7A</div>
+                    <div class="p-table-element halogens" onmousedown="transforme_big_element(this);">F</div>
+                    <div class="p-table-element halogens" onmousedown="transforme_big_element(this);">Cl</div>
+                    <div class="p-table-element halogens" onmousedown="transforme_big_element(this);">Br</div>
+                    <div class="p-table-element halogens" onmousedown="transforme_big_element(this);">I</div>
+                    <div class="p-table-element halogens" onmousedown="transforme_big_element(this);">At</div>
+                    <div class="p-table-element halogens" onmousedown="transforme_big_element(this);">Ts</div>
+                </div>
+                <div class="p-table-element-area column">
+                    <div class="p-table-element-header">8A</div>
+                    <div class="p-table-element noble-gases" onmousedown="transforme_big_element(this);">He</div>
+                    <div class="p-table-element noble-gases" onmousedown="transforme_big_element(this);">Ne</div>
+                    <div class="p-table-element noble-gases" onmousedown="transforme_big_element(this);">Ar</div>
+                    <div class="p-table-element noble-gases" onmousedown="transforme_big_element(this);">Kr</div>
+                    <div class="p-table-element noble-gases" onmousedown="transforme_big_element(this);">Xe</div>
+                    <div class="p-table-element noble-gases" onmousedown="transforme_big_element(this);">Rn</div>
+                    <div class="p-table-element noble-gases" onmousedown="transforme_big_element(this);">Og</div>
+                </div>
+            </div>
+            <div id="p-table-bottom">
+                <div class="p-table-element-area row">
+                    <div class="p-table-element lanthanides" onmousedown="transforme_big_element(this);">La</div>
+                    <div class="p-table-element lanthanides" onmousedown="transforme_big_element(this);">Ce</div>
+                    <div class="p-table-element lanthanides" onmousedown="transforme_big_element(this);">Pr</div>
+                    <div class="p-table-element lanthanides" onmousedown="transforme_big_element(this);">Nd</div>
+                    <div class="p-table-element lanthanides" onmousedown="transforme_big_element(this);">Pm</div>
+                    <div class="p-table-element lanthanides" onmousedown="transforme_big_element(this);">Sm</div>
+                    <div class="p-table-element lanthanides" onmousedown="transforme_big_element(this);">Eu</div>
+                    <div class="p-table-element lanthanides" onmousedown="transforme_big_element(this);">Gd</div>
+                    <div class="p-table-element lanthanides" onmousedown="transforme_big_element(this);">Tb</div>
+                    <div class="p-table-element lanthanides" onmousedown="transforme_big_element(this);">Dy</div>
+                    <div class="p-table-element lanthanides" onmousedown="transforme_big_element(this);">Ho</div>
+                    <div class="p-table-element lanthanides" onmousedown="transforme_big_element(this);">Er</div>
+                    <div class="p-table-element lanthanides" onmousedown="transforme_big_element(this);">Tm</div>
+                    <div class="p-table-element lanthanides" onmousedown="transforme_big_element(this);">Yb</div>
+                    <div class="p-table-element lanthanides" onmousedown="transforme_big_element(this);">Lu</div>
+                </div>
+                <div class="p-table-element-area row">
+                    <div class="p-table-element actinids" onmousedown="transforme_big_element(this);">Ac</div>
+                    <div class="p-table-element actinids" onmousedown="transforme_big_element(this);">Th</div>
+                    <div class="p-table-element actinids" onmousedown="transforme_big_element(this);">Pa</div>
+                    <div class="p-table-element actinids" onmousedown="transforme_big_element(this);">U</div>
+                    <div class="p-table-element actinids" onmousedown="transforme_big_element(this);">Np</div>
+                    <div class="p-table-element actinids" onmousedown="transforme_big_element(this);">Pu</div>
+                    <div class="p-table-element actinids" onmousedown="transforme_big_element(this);">Am</div>
+                    <div class="p-table-element actinids" onmousedown="transforme_big_element(this);">Cm</div>
+                    <div class="p-table-element actinids" onmousedown="transforme_big_element(this);">Bk</div>
+                    <div class="p-table-element actinids" onmousedown="transforme_big_element(this);">Cf</div>
+                    <div class="p-table-element actinids" onmousedown="transforme_big_element(this);">Es</div>
+                    <div class="p-table-element actinids" onmousedown="transforme_big_element(this);">Fm</div>
+                    <div class="p-table-element actinids" onmousedown="transforme_big_element(this);">Md</div>
+                    <div class="p-table-element actinids" onmousedown="transforme_big_element(this);">No</div>
+                    <div class="p-table-element actinids" onmousedown="transforme_big_element(this);">Lr</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="js/main.js"></script>
+
+</body>
+
+</html>

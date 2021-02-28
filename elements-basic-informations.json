@@ -1,0 +1,474 @@
+{
+    "H": {
+        "name": "hydrogen",
+        "family": "ametals"
+    },
+    "He": {
+        "name": "helium",
+        "family": "noble-gases"
+    },
+    "Li": {
+        "name": "Lithium",
+        "type": "alkaline-metals"
+    },
+    "Be": {
+        "name": "Beryllium",
+        "type": "alkaline-earth-metals"
+    },
+    "B": {
+        "name": "Boron",
+        "type": "metalloids"
+    },
+    "C": {
+        "name": "Carbon",
+        "type": "ametals"
+    },
+    "N": {
+        "name": "Nitrogen",
+        "type": "ametals"
+    },
+    "O": {
+        "name": "Oxygen",
+        "type": "ametals"
+    },
+    "F": {
+        "name": "Fluorine",
+        "type": "halogens"
+    },
+    "Ne": {
+        "name": "Neon",
+        "family": "noble-gases"
+    },
+    "Na": {
+        "name": "Sodium",
+        "type": "alkaline-metals"
+    },
+    "Mg": {
+        "name": "Magnesium",
+        "type": "alkaline-earth-metals"
+    },
+    "Al": {
+        "name": "Aluminum",
+        "type": "representative-metals"
+    },
+    "Si": {
+        "name": "Silicon",
+        "type": "metalloids"
+    },
+    "P": {
+        "name": "Phosphorus",
+        "type": "ametals"
+    },
+    "S": {
+        "name": "Sulfur",
+        "type": "ametals"
+    },
+    "Cl": {
+        "name": "Chlorine",
+        "type": "halogens"
+    },
+    "Ar": {
+        "name": "Argon",
+        "family": "noble-gases"
+    },
+    "K": {
+        "name": "Potassium",
+        "type": "alkaline-metals"
+    },
+    "Ca": {
+        "name": "Calcium",
+        "type": "alkaline-earth-metals"
+    },
+    "Sc": {
+        "name": "Scandium",
+        "type": "transition-metals"
+    },
+    "Ti": {
+        "name": "Titanium",
+        "type": "transition-metals"
+    },
+    "V": {
+        "name": "Vanadium",
+        "type": "transition-metals"
+    },
+    "Cr": {
+        "name": "Chromium",
+        "type": "transition-metals"
+    },
+    "Mn": {
+        "name": "Manganese",
+        "type": "transition-metals"
+    },
+    "Fe": {
+        "name": "Iron",
+        "type": "transition-metals"
+    },
+    "Co": {
+        "name": "Cobalt",
+        "type": "transition-metals"
+    },
+    "Ni": {
+        "name": "Nickel",
+        "family": "transition-metals"
+    },
+    "Cu": {
+        "name": "Copper",
+        "type": "transition-metals"
+    },
+    "Zn": {
+        "name": "Zinc",
+        "type": "transition-metals"
+    },
+    "Ga": {
+        "name": "Gallium",
+        "type": "representative-metals"
+    },
+    "Ge": {
+        "name": "Germanium",
+        "type": "metalloids"
+    },
+    "As": {
+        "name": "Arsenic",
+        "type": "metalloids"
+    },
+    "Se": {
+        "name": "Selenium",
+        "type": "ametals"
+    },
+    "Br": {
+        "name": "Bromine",
+        "type": "halogens"
+    },
+    "Kr": {
+        "name": "Krypton",
+        "family": "noble-gases"
+    },
+    "Rb": {
+        "name": "Rubidium",
+        "type": "alkaline-metals"
+    },
+    "Sr": {
+        "name": "Strontium",
+        "type": "alkaline-earth-metals"
+    },
+    "Y": {
+        "name": "Yttrium",
+        "type": "transition-metals"
+    },
+    "Zr": {
+        "name": "Zirconium",
+        "type": "transition-metals"
+    },
+    "Nb": {
+        "name": "Niobium",
+        "type": "transition-metals"
+    },
+    "Mo": {
+        "name": "Molybdenum",
+        "type": "transition-metals"
+    },
+    "Tc": {
+        "name": "Technesium",
+        "type": "transition-metals"
+    },
+    "Ru": {
+        "name": "Ruthenium",
+        "type": "transition-metals"
+    },
+    "Rh": {
+        "name": "Rhodium",
+        "type": "transition-metals"
+    },
+    "Pd": {
+        "name": "Palladium",
+        "family": "transition-metals"
+    },
+    "Ag": {
+        "name": "Silver",
+        "type": "transition-metals"
+    },
+    "Cd": {
+        "name": "Cadmium",
+        "type": "transition-metals"
+    },
+    "In": {
+        "name": "Indium",
+        "type": "representative-metals"
+    },
+    "Sn": {
+        "name": "Tin",
+        "type": "representative-metals"
+    },
+    "Sb": {
+        "name": "Antilmone",
+        "type": "metalloids"
+    },
+    "Te": {
+        "name": "Tellurium",
+        "type": "metalloids"
+    },
+    "I": {
+        "name": "Iodine",
+        "type": "halogens"
+    },
+    "Xe": {
+        "name": "Xenon",
+        "type": "noble-gases"
+    },
+    "Cs": {
+        "name": "Cesium",
+        "type": "alkaline-metals"
+    },
+    "Ba": {
+        "name": "Barium",
+        "type": "alkaline-earth-metals"
+    },
+    "Hf": {
+        "name": "Hafnium",
+        "type": "transition-metals"
+    },
+    "Ta": {
+        "name": "Tantalum",
+        "type": "transition-metals"
+    },
+    "W": {
+        "name": "Tungsten",
+        "type": "transition-metals"
+    },
+    "Re": {
+        "name": "Rhenium",
+        "type": "transition-metals"
+    },
+    "Os": {
+        "name": "Osmium",
+        "type": "transition-metals"
+    },
+    "Ir": {
+        "name": "Iridium",
+        "type": "transition-metals"
+    },
+    "Pt": {
+        "name": "Platinum",
+        "type": "transition-metals"
+    },
+    "Au": {
+        "name": "Gold",
+        "family": "transition-metals"
+    },
+    "Hg": {
+        "name": "Mercury",
+        "type": "transition-metals"
+    },
+    "Tl": {
+        "name": "Thallium",
+        "type": "representative-metals"
+    },
+    "Pb": {
+        "name": "Lead",
+        "type": "representative-metals"
+    },
+    "Bi": {
+        "name": "Bismuth",
+        "type": "representative-metals"
+    },
+    "Po": {
+        "name": "Polonium",
+        "type": "metalloids"
+    },
+    "At": {
+        "name": "Astato",
+        "type": "halogens"
+    },
+    "Rn": {
+        "name": "Radon",
+        "type": "noble-gases"
+    },
+    "Fr": {
+        "name": "Francium",
+        "type": "alkaline-metals"
+    },
+    "Ra": {
+        "name": "Radium",
+        "type": "alkaline-earth-metals"
+    },
+    "Rf": {
+        "name": "Rutherfordium",
+        "type": "transition-metals"
+    },
+    "Db": {
+        "name": "Dubious",
+        "type": "transition-metals"
+    },
+    "Sg": {
+        "name": "Seaborio",
+        "type": "transition-metals"
+    },
+    "Bh": {
+        "name": "Bohrio",
+        "type": "transition-metals"
+    },
+    "Hs": {
+        "name": "Hassium",
+        "type": "transition-metals"
+    },
+    "Mt": {
+        "name": "Meitnerium",
+        "type": "transition-metals"
+    },
+    "Ds": {
+        "name": "Darmstace",
+        "type": "transition-metals"
+    },
+    "Rg": {
+        "name": "Roentgenium",
+        "family": "transition-metals"
+    },
+    "Cn": {
+        "name": "Copernicium",
+        "type": "transition-metals"
+    },
+    "Nh": {
+        "name": "Nihonium",
+        "type": "representative-metals"
+    },
+    "Fl": {
+        "name": "Flerovium",
+        "type": "representative-metals"
+    },
+    "Mc": {
+        "name": "Moscow",
+        "type": "representative-metals"
+    },
+    "Lv": {
+        "name": "Livermory",
+        "type": "representative-metals"
+    },
+    "Ts": {
+        "name": "Tennessin",
+        "type": "halogens"
+    },
+    "Og": {
+        "name": "Organessonium",
+        "type": "noble-gases"
+    },
+    "La": {
+        "name": "Lanthanum",
+        "type": "lanthanides"
+    },
+    "Ce": {
+        "name": "Cerium",
+        "type": "lanthanides"
+    },
+    "Pr": {
+        "name": "Praseodymium",
+        "type": "lanthanides"
+    },
+    "Nd": {
+        "name": "Neodymium",
+        "type": "lanthanides"
+    },
+    "Pm": {
+        "name": "Promethium",
+        "type": "lanthanides"
+    },
+    "Sm": {
+        "name": "Samarium",
+        "type": "lanthanides"
+    },
+    "Eu": {
+        "name": "Europium",
+        "type": "lanthanides"
+    },
+    "Gd": {
+        "name": "Gadolinium",
+        "type": "lanthanides"
+    },
+    "Tb": {
+        "name": "Terbium",
+        "type": "lanthanides"
+    },
+    "Dy": {
+        "name": "Dysprosium",
+        "type": "lanthanides"
+    },
+    "Ho": {
+        "name": "Holmium",
+        "type": "lanthanides"
+    },
+    "Er": {
+        "name": "Erbium",
+        "type": "lanthanides"
+    },
+    "Tm": {
+        "name": "Thulium",
+        "type": "lanthanides"
+    },
+    "Yb": {
+        "name": "Ytterbium",
+        "type": "lanthanides"
+    },
+    "Lu": {
+        "name": "Lutetium",
+        "type": "lanthanides"
+    },
+    "Ac": {
+        "name": "Actinium",
+        "type": "lanthanides"
+    },
+    "Th": {
+        "name": "Thorium",
+        "type": "lanthanides"
+    },
+    "Pa": {
+        "name": "Protactinium",
+        "type": "lanthanides"
+    },
+    "U": {
+        "name": "Uranium",
+        "type": "lanthanides"
+    },
+    "Np": {
+        "name": "Neptunium",
+        "type": "lanthanides"
+    },
+    "Pu": {
+        "name": "Plutonium",
+        "type": "lanthanides"
+    },
+    "Am": {
+        "name": "Americium",
+        "type": "lanthanides"
+    },
+    "Cm": {
+        "name": "Curium",
+        "type": "lanthanides"
+    },
+    "Bk": {
+        "name": "Berkelium",
+        "type": "lanthanides"
+    },
+    "Cf": {
+        "name": "Californium",
+        "type": "lanthanides"
+    },
+    "Es": {
+        "name": "Einstenius",
+        "type": "lanthanides"
+    },
+    "Fm": {
+        "name": "Fermium",
+        "type": "lanthanides"
+    },
+    "Md": {
+        "name": "Mendelevius",
+        "type": "lanthanides"
+    },
+    "No": {
+        "name": "Nobelium",
+        "type": "lanthanides"
+    },
+    "Lr": {
+        "name": "Laurencio",
+        "type": "lanthanides"
+    }
+}
