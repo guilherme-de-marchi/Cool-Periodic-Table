@@ -6,6 +6,7 @@
 body {
     font-family: sans-serif, monospace;
     font-size: 1.2em;
+    color: white;
 }
 
 #periodic-table {
@@ -34,7 +35,7 @@ body {
     display: flex;
 }
 
-#p-table-elements-types {
+#p-table-elements-family {
     display: flex;
 }
 
@@ -44,20 +45,37 @@ body {
     border-radius: 20px;
     margin-right: 12px;
     transition: .5s;
+    background-color: rgb(214, 214, 214);
 }
 
 #p-table-big-element:hover {
     cursor: pointer;
 }
 
-#p-table-big-element-symbol,
-#p-table-big-element-name,
-#p-table-big-element-atomic-weight {
-    text-align: center;
+#p-table-big-element-content {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-#p-table-big-element-atomic-number {
-    text-align: right;
+.p-table-element-family {
+    width: 300px;
+    height: 36px;
+    background-color: rgb(214, 214, 214);
+    border-radius: 10px;
+    transition: .5s;
+}
+
+.p-table-element-family:not(:last-child) {
+    margin: 0 0 6px 0;
+}
+
+.p-table-element-family p {
+    line-height: 36px;
+    text-align: center;
 }
 
 .column {
@@ -90,7 +108,6 @@ body {
     height: 60px;
     border-radius: 5px;
     transition: 1s;
-    color: #ffffff;
     line-height: 60px;
     text-align: center;
 }
@@ -111,7 +128,6 @@ body {
     width: 60px;
     height: 24px;
     background-color: rgb(197, 197, 197);
-    color: #ffffff;
     text-align: center;
     line-height: 24px;
     letter-spacing: 4px;
@@ -119,19 +135,8 @@ body {
     border-top-right-radius: 12px;
 }
 
-.p-table-element-type {
-    width: 210px;
-    height: 36px;
-    background-color: rgb(214, 214, 214);
-    border-radius: 10px;
-}
-
 .p-table-element-area.column .p-table-element {
     margin: 6px 0 0 0;
-}
-
-.p-table-element-type:not(:last-child) {
-    margin: 0 0 6px 0;
 }
 
 .p-table-element-area.row .p-table-element:not(:last-child) {

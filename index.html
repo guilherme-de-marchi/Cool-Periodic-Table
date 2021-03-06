@@ -4,7 +4,8 @@
 
 <head>
 
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" family="text/css" href="css/reset.css">
+    <link rel="stylesheet" family="text/css" href="css/style.css">
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,27 +16,49 @@
 <body>
 
     <div id="periodic-table">
-        <div id="p-table-informations">
+        <div id="p-table-informations" class="invisible">
             <div id="p-table-big-element">
-                <p id="p-table-big-element-atomic-number"></p>
-                <h1 id="p-table-big-element-symbol"></h1>
-                <p id="p-table-big-element-name"></p>
-                <p id="p-table-big-element-atomic-weight"></p>
+                <div id="p-table-big-element-content">
+                    <p id="p-table-big-element-atomic-number"></p>
+                    <h1 id="p-table-big-element-symbol"></h1>
+                    <p id="p-table-big-element-name"></p>
+                    <p id="p-table-big-element-atomic-weight"></p>
+                </div>
             </div>
-            <div id="p-table-elements-types">
+            <div id="p-table-elements-family">
                 <div class="p-table-element-area column">
-                    <div class="p-table-element-type"></div>
-                    <div class="p-table-element-type"></div>
-                    <div class="p-table-element-type"></div>
-                    <div class="p-table-element-type"></div>
-                    <div class="p-table-element-type"></div>
+                    <div class="p-table-element-family ~ametals invisible">
+                        <p>Ametals</p>
+                    </div>
+                    <div class="p-table-element-family ~alkaline-metals invisible">
+                        <p>Alkaline metals</p>
+                    </div>
+                    <div class="p-table-element-family ~alkaline-earth-metals invisible">
+                        <p>Alkaline earth metals</p>
+                    </div>
+                    <div class="p-table-element-family ~noble-gases invisible">
+                        <p>Noble gases</p>
+                    </div>
+                    <div class="p-table-element-family ~metalloids invisible">
+                        <p>Metalloids</p>
+                    </div>
                 </div>
                 <div class="p-table-element-area column">
-                    <div class="p-table-element-type"></div>
-                    <div class="p-table-element-type"></div>
-                    <div class="p-table-element-type"></div>
-                    <div class="p-table-element-type"></div>
-                    <div class="p-table-element-type"></div>
+                    <div class="p-table-element-family ~halogens invisible">
+                        <p>Halogens</p>
+                    </div>
+                    <div class="p-table-element-family ~transition-metals invisible">
+                        <p>Transition metals</p>
+                    </div>
+                    <div class="p-table-element-family ~representative-metals invisible">
+                        <p>Representative metals</p>
+                    </div>
+                    <div class="p-table-element-family ~lanthanides invisible">
+                        <p>Lanthanides</p>
+                    </div>
+                    <div class="p-table-element-family ~actinids invisible">
+                        <p>Actinids</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -225,7 +248,7 @@
         </div>
     </div>
 
-    <script type="text/javascript" src="js/main.js"></script>
+    <script src="js/main.js"></script>
 
 </body>
 
