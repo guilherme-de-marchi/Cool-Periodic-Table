@@ -1,0 +1,202 @@
+/*
+My Github: https://github.com/Guilherme-De-Marchi/Cool-Periodic-Table
+License: MIT
+*/
+
+
+/*
+##########################################
+################# Tags ###################
+##########################################
+*/
+
+body {
+    font-family: 'OCR A Std', monospace;
+    color: #ffffff;
+}
+
+
+/*
+##########################################
+################### Ids ##################
+##########################################
+*/
+
+#periodic-table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#p-table-content {
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+}
+
+#p-table-top {
+    display: flex;
+    align-items: flex-end;
+}
+
+
+/*
+##########################################
+################ Classes #################
+##########################################
+*/
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+}
+
+.p-table-element {
+    text-align: center;
+    transition: 1.5s ease-out;
+}
+
+.p-table-element:active:not(.elements-group) {
+    transform: rotate(360deg);
+}
+
+.p-table-element-group {
+    background-color: #DCDCDC;
+    text-align: center
+}
+
+.p-table-element:hover,
+.p-table-element-group:hover {
+    cursor: pointer;
+}
+
+
+/*
+##########################################
+###### Colors of element's family ########
+##########################################
+*/
+
+.ametals {
+    background-color: #a9e9a4;
+}
+
+.ametals:hover {
+    background-color: #bfefbb;
+}
+
+.ametals:active {
+    background-color: #91e38e;
+}
+
+.alkaline-metals {
+    background-color: #ffcca9;
+}
+
+.alkaline-metals:hover {
+    background-color: #ffbb8d;
+}
+
+.alkaline-metals:active {
+    background-color: #ffaa71;
+}
+
+.alkaline-earth-metals {
+    background-color: #a0715f;
+}
+
+.alkaline-earth-metals:hover {
+    background-color: #8b5742;
+}
+
+.alkaline-earth-metals:active {
+    background-color: #734938;
+}
+
+.noble-gases {
+    background-color: #b7bcf3;
+}
+
+.noble-gases:hover {
+    background-color: #9da7ef;
+}
+
+.noble-gases:active {
+    background-color: #8192ea;
+}
+
+.metalloids {
+    background-color: #bbffd4;
+}
+
+.metalloids:hover {
+    background-color: #acffcc;
+}
+
+.metalloids:active {
+    background-color: #9defbd;
+}
+
+.halogens {
+    background-color: #befdfd;
+}
+
+.halogens:hover {
+    background-color: #afeeee;
+}
+
+.halogens:active {
+    background-color: #a0dfdf;
+}
+
+.transition-metals {
+    background-color: #f7b8ba;
+}
+
+.transition-metals:hover {
+    background-color: #f1a1a4;
+}
+
+.transition-metals:active {
+    background-color: #eb898f;
+}
+
+.representative-metals {
+    background-color: #a7aec2;
+}
+
+.representative-metals:hover {
+    background-color: #8b95ae;
+}
+
+.representative-metals:active {
+    background-color: #6f7c9b;
+}
+
+.lanthanides {
+    background-color: #e0acea;
+}
+
+.lanthanides:hover {
+    background-color: #d490e2;
+}
+
+.lanthanides:active {
+    background-color: #c773db;
+}
+
+.actinids {
+    background-color: #ceb1e6;
+}
+
+.actinids:hover {
+    background-color: #bd98de;
+}
+
+.actinids:active {
+    background-color: #ab7fd5;
+}
