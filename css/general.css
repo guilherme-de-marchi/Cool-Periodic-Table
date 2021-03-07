@@ -3,6 +3,10 @@ My Github: https://github.com/Guilherme-De-Marchi/Cool-Periodic-Table
 License: MIT
 */
 
+:root {
+    --base-number: 6px;
+}
+
 
 /*
 ##########################################
@@ -12,7 +16,8 @@ License: MIT
 
 body {
     font-family: 'OCR A Std', monospace;
-    color: #ffffff;
+    color: #333333;
+    background-color: #faf0e6;
 }
 
 
@@ -22,21 +27,35 @@ body {
 ##########################################
 */
 
+#extra-small-screen-warning {
+    display: none;
+}
+
 #periodic-table {
-    display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 #p-table-content {
-    display: flex;
     flex-direction: column;
-    overflow: scroll;
 }
 
 #p-table-top {
-    display: flex;
     align-items: flex-end;
+}
+
+#p-table-big-element {
+    transition: .5s;
+    text-align: center;
+    background-color: #DCDCDC;
+}
+
+#periodic-table,
+#p-table-content,
+#p-table-informations,
+#p-table-elements-family,
+#p-table-top {
+    display: flex;
 }
 
 
@@ -47,17 +66,12 @@ body {
 */
 
 .column {
-    display: flex;
     flex-direction: column;
-}
-
-.row {
-    display: flex;
 }
 
 .p-table-element {
     text-align: center;
-    transition: 1.5s ease-out;
+    transition: 1.5s ease-in-out;
 }
 
 .p-table-element:active:not(.elements-group) {
@@ -72,6 +86,17 @@ body {
 .p-table-element:hover,
 .p-table-element-group:hover {
     cursor: pointer;
+}
+
+.column,
+.row {
+    display: flex;
+}
+
+.p-table-element-family,
+.p-table-element,
+.p-table-element-group {
+    text-align: center;
 }
 
 

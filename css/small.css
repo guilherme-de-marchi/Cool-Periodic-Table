@@ -3,8 +3,20 @@ My Github: https://github.com/Guilherme-De-Marchi/Cool-Periodic-Table
 License: MIT
 */
 
-:root {
-    --base-number: 6px;
+
+/*
+##########################################
+################### Tags #################
+##########################################
+*/
+
+body {
+    font-size: 1.1em;
+}
+
+h1 {
+    font-size: 1.4em;
+    font-weight: bold;
 }
 
 
@@ -14,9 +26,60 @@ License: MIT
 ##########################################
 */
 
+#p-table-content {
+    margin: calc(var(--base-number) * 5);
+}
+
+#p-table-bottom {
+    margin-top: calc(var(--base-number) * 2);
+}
+
+#p-table-big-element {
+    --square-sides: calc(var(--base-number) * 27.5);
+    width: var(--square-sides);
+    height: var(--square-sides);
+}
+
+#p-table-big-element * {
+    line-height: calc(var(--square-sides) / 4);
+}
+
 
 /*
 ##########################################
 ################ Classes #################
 ##########################################
 */
+
+.p-table-element-family {
+    width: calc(var(--base-number) * 31);
+    padding: var(--base-number);
+}
+
+.p-table-element-area.column:not(:last-child),
+#p-table-big-element {
+    margin-right: calc(var(--base-number) / 2);
+}
+
+.p-table-element-area.column .p-table-element {
+    margin-top: calc(var(--base-number) / 2);
+}
+
+.p-table-element-area.row:first-child {
+    margin-bottom: calc(var(--base-number) / 2);
+}
+
+.p-table-element-area.row .p-table-element:not(:last-child) {
+    margin-right: calc(var(--base-number) / 2);
+}
+
+.p-table-element {
+    --square-sides: calc(var(--base-number) * 4.8);
+    width: var(--square-sides);
+    height: var(--square-sides);
+    line-height: var(--square-sides);
+}
+
+.p-table-element.elements-group {
+    font-size: .45em;
+}

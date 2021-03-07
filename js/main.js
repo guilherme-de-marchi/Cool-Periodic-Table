@@ -27,6 +27,6 @@ function transforme_big_element(element) {
         element_family[i].style.opacity = '0%';
     };
 
-    element_family = document.getElementsByClassName(`~${element.classList.item(1)}`)[0];
+    element_family = document.getElementsByClassName(`p-table-element-family ${element.classList.item(1)}`)[0];
     element_family.style.opacity = '100%';
 };

@@ -2,3 +2,69 @@
 My Github: https://github.com/Guilherme-De-Marchi/Cool-Periodic-Table
 License: MIT
 */
+
+
+/*
+##########################################
+################ Animations ##############
+##########################################
+*/
+
+@keyframes go-up-and-down {
+    0% {
+        top: 0;
+    }
+    50% {
+        top: -20px;
+    }
+    100% {
+        top: 0;
+    }
+}
+
+
+/*
+##########################################
+################### Tags #################
+##########################################
+*/
+
+body>*:not(#extra-small-screen-warning) {
+    display: none;
+}
+
+#extra-small-screen-warning #extra-small-screen-warning-tree-points span {
+    position: relative;
+    animation: go-up-and-down 1.5s ease-in-out infinite;
+}
+
+#extra-small-screen-warning #extra-small-screen-warning-tree-points span:nth-child(1) {
+    animation-delay: .2s;
+}
+
+#extra-small-screen-warning #extra-small-screen-warning-tree-points span:nth-child(2) {
+    animation-delay: .4s;
+}
+
+#extra-small-screen-warning #extra-small-screen-warning-tree-points span:nth-child(3) {
+    animation-delay: .6s;
+}
+
+
+/*
+##########################################
+################### Ids ##################
+##########################################
+*/
+
+#extra-small-screen-warning {
+    display: block;
+    margin: 0 15px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2em;
+    line-height: 1.5em;
+    text-align: center;
+    color: #050f19;
+}
