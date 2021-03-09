@@ -20,6 +20,16 @@ body {
     background-color: #faf0e6;
 }
 
+footer {
+    text-align: center;
+    color: #faf0e6;
+    background-color: #333333;
+}
+
+h1 {
+    font-weight: bold;
+}
+
 
 /*
 ##########################################
@@ -48,6 +58,11 @@ body {
     transition: .5s;
     text-align: center;
     background-color: #DCDCDC;
+    user-select: none;
+}
+
+#p-table-big-element:hover {
+    cursor: pointer;
 }
 
 #periodic-table,
@@ -69,9 +84,16 @@ body {
     flex-direction: column;
 }
 
+.p-table-element-family {
+    transition: 1s;
+}
+
+.p-table-element-family:hover {
+    cursor: pointer;
+}
+
 .p-table-element {
-    text-align: center;
-    transition: 1.5s ease-in-out;
+    transition: 1s ease-in-out;
 }
 
 .p-table-element:active:not(.elements-group) {
@@ -80,7 +102,6 @@ body {
 
 .p-table-element-group {
     background-color: #DCDCDC;
-    text-align: center
 }
 
 .p-table-element:hover,
@@ -97,6 +118,7 @@ body {
 .p-table-element,
 .p-table-element-group {
     text-align: center;
+    user-select: none;
 }
 
 

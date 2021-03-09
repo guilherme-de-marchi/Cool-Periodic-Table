@@ -14,9 +14,16 @@ body {
     font-size: 1.1em;
 }
 
+footer {
+    line-height: 4em;
+}
+
+footer span:first-child {
+    margin-right: calc(var(--base-number) * 5);
+}
+
 h1 {
     font-size: 1.4em;
-    font-weight: bold;
 }
 
 
@@ -26,8 +33,12 @@ h1 {
 ##########################################
 */
 
+#periodic-table {
+    margin: calc(var(--base-number) * 7) 0;
+}
+
 #p-table-content {
-    margin: calc(var(--base-number) * 5);
+    margin-top: calc(var(--base-number) * 5);
 }
 
 #p-table-bottom {
